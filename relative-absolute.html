@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+                   <meta charset="UTF-8">
+                   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                   <title>This is our relative and absolute postion for practice website</title>
+                   <style>
+                         body{
+                             border: 3px solid cyan;               
+                         }
+                         .container{
+                             border: 5px solid brown;
+                             position: relative;
+                   
+                         }
+                        .box{
+                           height: 150px;
+                           width: 150px;
+                           margin: 10px;
+                        } 
+                        #box-1{
+                             background-color: green;              
+                        }             
+                        #box-2{
+                             background-color: rgb(194, 112, 18); 
+                             position: absolute;
+                             left: 0px;
+                              top: 0px; 
+                              /* left: 0px; */
+                             /* top: -50px;
+                             left: 150px;              */
+                        }             
+                        #box-3{
+                             background-color: rgba(29, 2, 39, 0.877);              
+                        }             
+                   </style>
+</head>
+<body>
+             <h1>Explore relative and absolute one more time</h1>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam beatae facilis dicta maxime fugiat atque quis minima sit tenetur libero dolore distinctio repudiandae vero nobis aliquid doloribus reprehenderit nulla, sint, quisquam vel numquam consequuntur unde repellendus. Tempora quibusdam adipisci amet doloribus ullam laudantium reiciendis iure, fugiat ex libero obcaecati non.</p> 
+             <!-- .container>.box#box-$*3{box-$}      -->
+             <div class="container">
+                                <div class="box" id="box-1">Box-1</div>
+                                <div class="box" id="box-2">Box-2</div>
+                                <div class="box" id="box-3">Box-3</div>
+             </div>
+</body>
+</html>
